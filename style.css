@@ -1,3 +1,5 @@
+/* todo: make responsive */
+
 * {
   margin: 0;
   padding: 0;
@@ -70,8 +72,8 @@
 
 /* Content Sections */
 
-.section1 {
-  position: relative;
+.section1,
+.section2 {
   display: flex;
   height: 550px;
 }
@@ -117,28 +119,35 @@
   cursor: pointer;
 }
 
+.left1 {
+  background-image: url("./assets/image-graphic-design.jpg");
+}
+
+.right1 {
+  background-image: url("./assets/image-photography.jpg");
+}
+
 .left1,
 .right1 {
   flex: 1;
   display: flex;
   justify-content: center;
+  background-position: center top;
+  background-size: cover;
+  padding-bottom: 20px;
+  align-items: flex-end;
 }
 
 .text-container-top {
-  position: absolute;
-  width: 30%;
-  top: 65%;
+  width: 70%;
 }
 
 .text-container-top p {
+  margin-top: 20px;
   font-weight: 550;
   font-size: 0.9rem;
   line-height: 1.8;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.text-container-top h2 {
-  margin-bottom: 16px;
 }
 
 .left1 h2,
@@ -278,4 +287,58 @@
 
 .socials img {
   cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .banner .menu {
+    display: none;
+  }
+
+  .banner .main {
+    font-size: 40px;
+  }
+
+  .section2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section1 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .section1 .left,
+  .section2 .left {
+    padding: 30px 0;
+  }
+
+  .testimonials {
+    padding: 60px 40px;
+  }
+
+  .testimonials h1 {
+    margin-bottom: 10px;
+  }
+
+  .testimonials .clients {
+    flex-direction: column;
+  }
+
+  .clients .client {
+    margin-top: 40px;
+  }
+
+  .client p {
+    margin-bottom: 10px;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+  }
+
+  .gallery .gallery-container {
+    flex: 0.5;
+    flex-basis: 50%;
+  }
 }
