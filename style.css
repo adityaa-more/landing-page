@@ -75,7 +75,7 @@
 .section1,
 .section2 {
   display: flex;
-  height: 550px;
+  height: 500px;
 }
 
 .container-img {
@@ -170,6 +170,7 @@
   align-items: center;
   background-color: fffbf8;
   padding: 90px 50px;
+  height: 600px;
 }
 
 .testimonials h1 {
@@ -253,6 +254,7 @@
   align-items: center;
   background-color: #90d4c5;
   padding: 50px 0;
+  height: 200px;
 }
 
 .footer .logo {
