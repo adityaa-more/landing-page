@@ -1,10 +1,22 @@
 /* todo: make responsive */
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   cursor: default;
+}
+
+span,
+p {
+  font-family: "Barlow", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
 }
 
 /* Banner */
@@ -24,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 20px 20px;
   color: white;
 }
 
@@ -36,16 +48,23 @@
 }
 
 .menu span {
-  font-family: Arial, Helvetica, sans-serif;
   margin-right: 30px;
   cursor: pointer;
 }
 
+.menu span:hover {
+  color: wheat;
+  transition: 0.2s all ease-in-out;
+}
+
 .contact {
-  background: white;
+  font-family: "Fraunces", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: white;
   color: black;
-  padding: 8px 30px;
-  border-radius: 20px;
+  padding: 10px 26px;
+  border-radius: 25px;
   cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
@@ -59,10 +78,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 70px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
   flex-grow: 1;
   color: white;
-  font-weight: bold;
 }
 
 .arrow {
@@ -103,15 +123,13 @@
 
 .left p,
 .right p {
-  color: #848391;
+  color: hsl(232, 10%, 55%);
   line-height: 1.8;
-  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 16px;
 }
 
-.left .button h3 {
+.left .button h2 {
   width: 136px;
-  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   font-size: 16px;
   font-weight: bolder;
@@ -141,22 +159,23 @@
 .text-container-top {
   width: 70%;
 }
+.text-container-top h1 {
+  font-size: 1.8rem;
+}
 
 .text-container-top p {
   margin-top: 20px;
-  font-weight: 550;
   font-size: 0.9rem;
-  line-height: 1.8;
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
 }
 
-.left1 h2,
+.left1 h1,
 .left1 p {
   text-align: center;
   color: #336c60;
 }
 
-.right1 h2,
+.right1 h1,
 .right1 p {
   text-align: center;
   color: #1c5d80;
@@ -168,13 +187,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: fffbf8;
+  justify-content: space-around;
+  color: hsl(232, 10%, 55%);
   padding: 90px 50px;
   height: 600px;
 }
 
 .testimonials h1 {
-  color: #848391;
+  color: hsl(210, 4%, 67%);
   font-size: 22px;
   margin-bottom: 50px;
 }
@@ -210,9 +230,8 @@
   font-size: 14px;
   text-align: center;
   margin-bottom: 30px;
-  color: #848391;
+  color: hsl(232, 10%, 55%);
   line-height: 1.8;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -221,13 +240,14 @@
 }
 
 .client .details p {
-  color: #a1a0ac;
   font-size: 13px;
   margin-top: 8px;
+  color: hsl(210, 4%, 67%);
 }
 
 .client .details h2 {
   font-size: 18px;
+  color: black;
 }
 
 /* Gallery */
@@ -262,7 +282,6 @@
 }
 
 .footer .footer-nav {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: #499c89;
@@ -270,6 +289,7 @@
 }
 
 .footer-nav span {
+  font-size: 1rem;
   padding: 18px;
   cursor: pointer;
 }
@@ -279,8 +299,8 @@
 }
 
 .footer .socials {
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-top: 75px;
+  margin-bottom: 2px;
 }
 
 .socials a {
