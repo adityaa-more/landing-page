@@ -49,20 +49,10 @@ Users should be able to:
 To see how you can add code snippets, see below:
 
 ```html
- <section id="content" class="section1">
-            <div class="left">
-                <div class="text-container">
-                    <h1>Tranform your brand</h1>
-                    <p>We are a full-service creative agency.</p>
-                    <div class="button">
-                        <img src="./assets/learnmore.png" alt="learn more button">
-                    </div>
-                </div>
-            </div>
-            <div class="right">
-                <img class="container-img" src="./assets/image-gallery-egg.jpg" alt="illustration">
-            </div>
-        </section>
+ <div class="main">
+                <span class="text">WE ARE CREATIVES</span>
+                <a href="#content"><img src="./assets/icon-arrow-down.svg" class="arrow" alt="arrow button"></a>
+ </div>
 ```
 
 ```css
@@ -84,7 +74,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [CSS-Tricks FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped in finally understaning flexbox. I really liked this pattern and will use it going forward.
-- [MDN] web docs(https://developer.mozilla.org/en-US/) - This is an amazing article which helped me understand all concepts. I'd recommend it to anyone still learning hltml-css.
+- [MDN web docs](https://developer.mozilla.org/en-US/) - This is an amazing article which helped me understand all concepts. I'd recommend it to anyone still learning hltml-css.
 
 ## Author
 
