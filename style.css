@@ -23,7 +23,7 @@ h2 {
 
 .banner {
   height: 90vh;
-  min-height: 100vh;
+  min-height: 650px;
   background-image: url("./assets/image-header.jpg");
   background-position: center bottom;
   background-size: cover;
