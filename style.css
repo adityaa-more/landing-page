@@ -23,7 +23,7 @@ h2 {
 
 .banner {
   height: 90vh;
-  min-height: 600px;
+  min-height: 650px;
   background-image: url("./assets/image-header.jpg");
   background-position: center bottom;
   background-size: cover;
@@ -198,7 +198,7 @@ h2 {
   justify-content: space-around;
   color: hsl(232, 10%, 55%);
   padding: 90px 50px;
-  height: 600px;
+  height: 550px;
 }
 
 .testimonials h1 {
@@ -283,7 +283,7 @@ h2 {
   align-items: center;
   background-color: #90d4c5;
   padding: 50px 0;
-  height: 200px;
+  height: 220px;
 }
 
 .footer .logo {
